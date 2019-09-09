@@ -1,0 +1,69 @@
+Determining compilation order of HDL files
+Analyzing Verilog file ShiftLeft232.v
+Analyzing Verilog file ShiftLeft2.v
+Analyzing Verilog file SExt.v
+Analyzing Verilog file REG.v
+Analyzing Verilog file PC.v
+Analyzing Verilog file MUX5.v
+Analyzing Verilog file MUX32.v
+Analyzing Verilog file IM.v
+Analyzing Verilog file DMem.v
+Analyzing Verilog file ControlUnit.v
+Analyzing Verilog file ALUControl.v
+Analyzing Verilog file ALU.v
+Analyzing Verilog file SingleCycleCPU.v
+Analyzing Verilog file SingleTest.v
+Analyzing Verilog file D:/xilinx/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.ShiftLeft232 into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@shift@left232.sdb
+Saving Verilog parse-tree work.ShiftLeft2 into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@shift@left2.sdb
+Saving Verilog parse-tree work.SExt into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@s@ext.sdb
+Saving Verilog parse-tree work.REG into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@r@e@g.sdb
+Saving Verilog parse-tree work.PC into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@p@c.sdb
+Saving Verilog parse-tree work.MUX5 into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@m@u@x5.sdb
+Saving Verilog parse-tree work.MUX32 into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@m@u@x32.sdb
+Saving Verilog parse-tree work.IM into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@i@m.sdb
+Saving Verilog parse-tree work.DMem into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@d@mem.sdb
+Saving Verilog parse-tree work.ControlUnit into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@control@unit.sdb
+Saving Verilog parse-tree work.ALUControl into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@a@l@u@control.sdb
+Saving Verilog parse-tree work.ALU into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@a@l@u.sdb
+Saving Verilog parse-tree work.SingleCycleCPU into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@single@cycle@c@p@u.sdb
+Saving Verilog parse-tree work.SingleTest into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/@single@test.sdb
+Saving Verilog parse-tree work.glbl into c:/users/zijian
+sui/desktop/singlecyclecpu/singlecyclecpu/isim/work/glbl.sdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 151172 Kb
+Fuse CPU Usage: 234 ms
+Compiling module glbl
+Compiling module PC
+Compiling module IM
+Compiling module ControlUnit
+Compiling module ALUControl
+Compiling module ALU
+Compiling module REG
+Compiling module MUX32
+Compiling module SExt
+Compiling module MUX5
+Compiling module DMem
+Compiling module ShiftLeft232
+Compiling module ShiftLeft2
+Compiling module SingleCycleCPU
+Compiling module SingleTest
+Compiled 15 Verilog Units
+Built simulation executable SingleTest_isim_beh.exe
+Fuse Memory Usage: 152260 Kb
+Fuse CPU Usage: 327 ms

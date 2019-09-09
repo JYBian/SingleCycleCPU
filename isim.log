@@ -1,0 +1,71 @@
+Command line:
+   ./SingleTest_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  59466
+
+Fri Nov 24 10:40:43 2017
+
+Total Line Count : 158
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 187.879 Meg
+
+ Total Signals          : 153
+ Total Nets             : 581
+ Total Signal Drivers   : 41
+ Total Blocks           : 18
+ Total Primitive Blocks : 16
+ Total Processes        : 60
+ Total Traceable Variables  : 47
+ Total Scalar Nets and Variables : 11120
+ntrace select -o on -n /SingleTest/RegDst 
+ntrace select -o on -n /SingleTest/Jump 
+ntrace select -o on -n /SingleTest/Branch 
+ntrace select -o on -n /SingleTest/Branch2 
+ntrace select -o on -n /SingleTest/MemRead 
+ntrace select -o on -n /SingleTest/MemtoReg 
+ntrace select -o on -n /SingleTest/MemWrite 
+ntrace select -o on -n /SingleTest/ALUSrc 
+ntrace select -o on -n /SingleTest/RegWrite 
+ntrace select -o on -n /SingleTest/zero 
+ntrace select -o on -n /SingleTest/sel 
+ntrace select -o on -n /SingleTest/fourzero 
+ntrace select -o on -n /SingleTest/ALUControl 
+ntrace select -o on -n /SingleTest/pcIn 
+ntrace select -o on -n /SingleTest/pcOut 
+ntrace select -o on -n /SingleTest/Rdata1 
+ntrace select -o on -n /SingleTest/Rdata2 
+ntrace select -o on -n /SingleTest/In2 
+ntrace select -o on -n /SingleTest/Extended 
+ntrace select -o on -n /SingleTest/Wdata 
+ntrace select -o on -n /SingleTest/result 
+ntrace select -o on -n /SingleTest/Rdata 
+ntrace select -o on -n /SingleTest/shifted32 
+ntrace select -o on -n /SingleTest/addedPC 
+ntrace select -o on -n /SingleTest/beqaddr 
+ntrace select -o on -n /SingleTest/JumpAddress 
+ntrace select -o on -n /SingleTest/beqmuxedaddr 
+ntrace select -o on -n /SingleTest/ALUOp 
+ntrace select -o on -n /SingleTest/I250 
+ntrace select -o on -n /SingleTest/I3126 
+ntrace select -o on -n /SingleTest/I50 
+ntrace select -o on -n /SingleTest/I2521 
+ntrace select -o on -n /SingleTest/I2016 
+ntrace select -o on -n /SingleTest/I1511 
+ntrace select -o on -n /SingleTest/Wreg 
+ntrace select -o on -n /SingleTest/I150 
+ntrace select -o on -n /SingleTest/shifted26 
+ntrace select -o on -n /SingleTest/clock 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 199.381 Meg
+
+Fri Nov 24 10:40:47 2017
+
