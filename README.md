@@ -11,5 +11,5 @@ The objective of this repositories is to model the Single Cycle implementation o
 
 The following diagram shows the working flow of the Single Cycle CPU and was referenced when creating the Verilog files. (*source: Computer Organization and Design, by Patterson and Hennessy, Morgan Kaufmann Publishers*)
 
-![SingleCycle](https://github.com/JYBian/PipelineCPU/blob/master/PiplineCPU.png)
+![SingleCycle](https://github.com/JYBian/SingleCycleCPU/blob/master/SingleCycleCPU.png)
 
